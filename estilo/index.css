@@ -1,0 +1,46 @@
+h1 {background: beige; color: blue; font-size: 250%; text-align: center; text-decoration: underline;}
+body {background-color: rgb(165, 217, 233); background-image: url(../Imagen/fondo.jpg); 
+    background-repeat: cover; background-attachment: fixed; }
+p {font-size:120%;}
+h2 {font-size: 140%; text-align: justify;}
+h3 {font-size: 120%; text-decoration: underline;}
+
+header {background-color: palegreen;
+
+}
+
+section {background-color: thistle;
+width: 29%;
+float: left;
+margin: 0.3%;
+padding: 15px;
+box-sizing: border-box;
+border: 8px rgb(26, 15, 1) solid;
+height: 400px;
+overflow: auto;
+}
+
+aside {background-color: darkcyan;
+width: 69%;
+float: left;
+margin: 0.3%;
+padding: 0.2%;
+box-sizing: border-box;
+
+}
+
+div {
+    float:right
+}
+
+footer {background-color: powderblue;
+clear: both;
+display: flex;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom:25px;
+    right:25px;
+    z-index:100;
+}
